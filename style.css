@@ -15,7 +15,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: #1F2937;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 .logo {
@@ -34,4 +34,44 @@ ul {
 .menu a {
     text-decoration: none;
     color: inherit;
+}
+
+.hero {
+    color: #f9faf8;
+    padding: 30px 20px;
+    background-color: #1F2937;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.photo {
+    width: 500px;
+}
+
+.hero-left {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+.main {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#second {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
 }
